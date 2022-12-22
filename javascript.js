@@ -39,10 +39,10 @@ function operate (a, operator, b) {
     else if (operator == "/") {
         return devide(a,b)
     }
-    else if (operator == "**") {
+    else if (operator == '**') {
         return toPower(a,b)
     }
 
 };
 
-console.log(operate( 5, '*', 5))
+console.log(operate( 5, "**" , 5))
