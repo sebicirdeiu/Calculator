@@ -63,8 +63,8 @@ const multiplication = document.getElementById("multiply");
 const minus = document.getElementById("minus");
 const plus = document.getElementById("plus");
 const ac = document.getElementById("ac");
-const pow = document.getElementById("pow");
-const sqr = document.getElementById("sqr");
+const back = document.getElementById("back");
+const dbzr = document.getElementById("dbzr");
 const equal = document.getElementById("equal");
 
 
@@ -118,6 +118,14 @@ plus.addEventListener("click", () =>
 ac.addEventListener("click", () => {
 display.textContent = "" } );
 
+dbzr.addEventListener("click", () => {
+    display.textContent += "00"
+});
+
+back.addEventListener("click",() => {
+    display.textContent = display.textContent.slice(0, -1)
+});
+
 equal.addEventListener("click", () => {
 
     const displayText = display.textContent;
@@ -143,7 +151,7 @@ equal.addEventListener("click", () => {
     const firstNum = parseFloat(displayText.substring(0, operatorIndex));
     const secondNum = parseFloat(displayText.substring(operatorIndex + 1));
   
-    const result = parseFloat(operate(firstNum, operator, secondNum).toFixed(2));
+    const result = parseFloat(operate(firstNum, operator, secondNum).toFixed(3));
   
     
     display.textContent = result;

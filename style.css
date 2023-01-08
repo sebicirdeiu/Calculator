@@ -93,4 +93,19 @@ h3 { border: 2px solid;
     background-color: teal;
 }
 
-#foot {text-align: center;}
+#ac, #back, #dbzr {
+    background-color: grey;
+}
+
+#ac:hover, #back:hover, #dbzr:hover{
+    background-color: green;
+}
+
+.op:hover, .btn:hover, .zero:hover {
+
+    background-color: green;
+}
+
+
+#foot {text-align: center;
+}

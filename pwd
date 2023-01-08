@@ -1,0 +1,23 @@
+[33mcommit fd078e90c22e09322806cbec35cd9e59c96c0539[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Sebi Cirdeiu <sebbcirdeiu@yahoo.com>
+Date:   Sun Jan 8 17:57:25 2023 +0200
+
+    Create working calculator for simple math operations
+
+[33mcommit 6369e9800aa1e8d9dfa9e07fe7b680c8af8f1543[m
+Author: Sebi Cirdeiu <sebbcirdeiu@yahoo.com>
+Date:   Thu Dec 22 17:32:56 2022 +0200
+
+    Create user interface with css and html
+
+[33mcommit c7577b9706e374a29fd4229fd3f10087e412beb4[m
+Author: Sebi Cirdeiu <sebbcirdeiu@yahoo.com>
+Date:   Tue Dec 20 17:38:41 2022 +0200
+
+    Create functions for simple calculations and operand function
+
+[33mcommit 3cf870f9d059eeaa9195d42a74381b6dee45149b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: sebicirdeiu <103687209+sebicirdeiu@users.noreply.github.com>
+Date:   Tue Dec 20 16:26:44 2022 +0200
+
+    Initial commit
