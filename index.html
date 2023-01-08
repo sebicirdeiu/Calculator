@@ -6,54 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 
-    <script src="/javascript.js"></script>
     <link rel="stylesheet" href="/style.css">
+    <script src="/javascript.js" defer></script>
 </head>
 
 <body>
 <div class="project">
 <div class="calc">
-    <h3>45.786</h3>
+    <h3 class="display">574</h3>
 <div class="buttons">
 <div class="calculator">
 <div class="top">
-    <button class="btn" style="background-color: grey ;">AC</button>
-    <button class="btn" style="background-color: grey ;">POW</button>
-    <button class="btn" style="background-color: grey ;">SQR</button>
+    <button class="btn" id="ac" style="background-color: grey ;">AC</button>
+    <button class="btn" id="pow" style="background-color: grey ;">POW</button>
+    <button class="btn" id="sqr" style="background-color: grey ;">SQR</button>
 </div>
 <div class="numbers">
 <div class="first">
-    <button class="btn">1</button>
-    <button class="btn">2</button>
-    <button class="btn">3</button>
+    <button class="btn" id="one">1</button>
+    <button class="btn" id="two">2</button>
+    <button class="btn" id="three">3</button>
 </div>
 <div class="second">
-    <button class="btn">4</button>
-    <button class="btn">5</button>
-    <button class="btn">6</button>
+    <button class="btn" id="four">4</button>
+    <button class="btn" id="five">5</button>
+    <button class="btn" id="six">6</button>
 </div>
 <div class="third">
-    <button class="btn">7</button>
-    <button class="btn">8</button>
-    <button class="btn">9</button>
+    <button class="btn" id="seven">7</button>
+    <button class="btn" id="eight">8</button>
+    <button class="btn" id="nine">9</button>
 </div>
 <div class="fourth">
     <button class="zero">0</button>
-    <button class="btn">.</button>
+    <button class="btn" id="dot">.</button>
 </div>
 </div>
 </div>
 <div class="operators">
-    <button class="op">÷</button>
-    <button class="op">*</button>
-    <button class="op">-</button>
-    <button class="op">+</button>
-    <button class="op">=</button>
+    <button class="op" id="devide">÷</button>
+    <button class="op" id="multiply">*</button>
+    <button class="op" id="minus">-</button>
+    <button class="op" id="plus">+</button>
+    <button class="op" id="equal">=</button>
 </div>
 </div>
 </div>
 </div>
 
-    
-</body>
+<footer id="foot"> <strong>© Sebastian Cirdeiu 2022</strong>  </footer>
+
+</body> 
 </html>

@@ -24,7 +24,7 @@ html {background-color: aquamarine;}
 h3 { border: 2px solid;
     padding: 2px;
     width: 210px;
-    
+    height: 20px;
     text-align: end;
     background-color: peachpuff;
     padding-top: 4px;
@@ -93,3 +93,4 @@ h3 { border: 2px solid;
     background-color: teal;
 }
 
+#foot {text-align: center;}
